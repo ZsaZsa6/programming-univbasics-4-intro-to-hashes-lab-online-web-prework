@@ -33,10 +33,10 @@ def update_counting_hash(hash, key)
   
     if hash[key]==nil
       hash[key]=1
-      return my_hash_creator = {hash => key}
+      return my_hash_creator
     else
       hash[key]+1
-      return my_hash_creator = {hash => key}
+      return my_hash_creator
   end
 end
 
