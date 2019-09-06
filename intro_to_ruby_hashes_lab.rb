@@ -32,7 +32,8 @@ end
 def update_counting_hash(hash, key)
   
     if update_counting_hash [hash =>key]==nil
-     return update_counting_hash [key]=1
+     update_counting_hash [key]=1
+     return 
       
     else
       hash[key]+1
